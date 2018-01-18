@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1516285159 source:c:\users\kamil\desktop\codeblock\nowik_z7\main.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	<string>
+

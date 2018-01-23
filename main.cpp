@@ -6,6 +6,15 @@
 using namespace std;
 
 
+struct SAuto
+    {
+        string marka;
+        int rocznik;
+        double cena;
+    };
+
+
+
 int main()
 {
 
@@ -52,7 +61,16 @@ SAuto A[n];
             suma+=A[i].cena;
         }
     }
-    srednia=suma/ile;
+    if(ile<1)
+    {
+        srednia=A[n-1].cena;
+    }
+    if(ile>0)
+    {
+        srednia=suma/ile;
+    }
+
+
 
 
 
